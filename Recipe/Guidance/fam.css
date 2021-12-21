@@ -1,0 +1,54 @@
+.cardDescription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.stepMargin{
+    
+}
+
+.titleMai{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bruh{
+    margin-top: 2;
+}
+
+footer{
+    height: 7em;
+}
+
+.finished{
+    margin-top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+}
+
+.finishedpic{
+    width: 100%;
+}
+
+
+.element {
+    @include invisible(hidden);
+}
+
+.invisible {
+    visibility: hidden;
+}
