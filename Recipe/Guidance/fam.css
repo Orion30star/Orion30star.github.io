@@ -2,6 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color:  #8A5A44 !important;
+    
 }
 
 .card{
@@ -51,4 +53,8 @@ img{
 
 .invisible {
     visibility: hidden;
+}
+
+#cookieguidance{
+    text-align: center;
 }
